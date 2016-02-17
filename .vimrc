@@ -145,3 +145,4 @@ nmap <silent> <leader>wm :WMToggle<cr>
 let g:SuperTabDefaultCompletionType = ""
 
 set cc=81
+cnoremap<expr> %% getcmdtype()==':'?expand('%:h').'/':'%%'
